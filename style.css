@@ -1,0 +1,159 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  background-color: #f0f4f8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+/* Heading Styling */
+h1 {
+  color: #2c3e50;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0;
+  gap: 20px;
+}
+
+input[type="text"] {
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  font-size: 16px;
+  padding: 14px;
+  width: 320px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Button Styling */
+button[type="submit"] {
+  background-color: #3498db;
+  border: seagreen;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px 25px;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+  transform: translateY(-3px);
+  width: 200px;
+}
+
+/* Results Section */
+#results {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 40px 0;
+  padding: 0 20px;
+}
+
+/* Result Item Styling */
+#results > div {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+#results > div:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+#results img {
+  border-radius: 8px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  height: 220px;
+  width: 100%;
+}
+
+/* Recipe Title */
+#results h3 {
+  color: #34495e;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Ingredient List */
+#results ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#results li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* View Recipe Button */
+#results a {
+  background-color: #3498db;
+  border-radius: 8px;
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#results a:hover {
+  background-color: #2980b9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#submit{
+ /* Basic styling for the submit button */
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  padding: 15px 32px; /* Add padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Display as inline block */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Add margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+
+}
